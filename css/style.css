@@ -1,0 +1,18 @@
+body {
+	margin:0px;
+	border:0px;
+	padding:0px;
+	cursor: none;
+	overflow:hidden;
+}
+#rotating-item-wrapper {
+	position: relative;
+	width: 1483px;
+	height: 2635px;
+}
+.rotating-item {
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
