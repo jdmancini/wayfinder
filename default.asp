@@ -2,8 +2,8 @@
     'START: variables
     Dim username
     Dim password
-    username = ""  ' change this to set the username
-    password = "" ' change this to set the password
+    username = "admin"  ' change this to set the username
+    password = "password" ' change this to set the password
     'END: variables
 
 
@@ -25,15 +25,25 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Wayfinder Administration</title>
+    <title>Wayfinder Login</title>
+	<style type="text/css">
+		body{font-family:sans-serif;font-size:10pt;}
+		h1{font-size:18pt;margin:0px;padding:0px;}
+		.topmenu{font-size:9pt;padding:4px 0px 20px 0px;}
+		table{border-collapse: collapse;}
+		td{margin:0px;padding:4px;border-style:solid;border-width:1px;}
+	</style>
 </head>
 <body>
+<h1>Wayfinder Login</h1>
+<p>
     <form name="loginForm" method="get" action="default.asp">
         <input type="text" name="fUsername">
         <input type="password" name="fPassword">
         <input type="hidden" name="fLogin" value="true">
         <input type="submit" value="submit">
     </form>
+</p>
 </body>
 </html>
 <%

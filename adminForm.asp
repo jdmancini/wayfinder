@@ -47,8 +47,16 @@
 <head>
     <meta charset="utf-8" />
     <title>Wayfinder Administration</title>
+	<style type="text/css">
+		body{font-family:sans-serif;font-size:10pt;}
+		h1{font-size:18pt;margin:0px;padding:0px;}
+		.topmenu{font-size:9pt;padding:4px 0px 20px 0px;}
+	</style>
+
 </head>
 <body>
+	<h1>Wayfinder Administration</h1>
+	<div class="topmenu"><a href="adminForm.asp">administration</a> | <a href="display.asp">directory</a> | <a href="readme.asp">readme</a></div>
 	<form id="adminForm" method="get" action="adminForm.asp">
 		<select name="displaySubmit">
 			<option value="0">Normal Status</option>
